@@ -25,7 +25,7 @@ function getPlayDeck (playId) {
             main.innerHTML = `
             <div class="d-flex">
             <div class="box">
-                <h2>${data.remaining}</h2>
+                <h2>Remaining: ${data.remaining}</h2>
             </div>
             <div class="box">
                 <img src="${data.cards[0].image}" alt="">
